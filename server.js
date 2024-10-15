@@ -13,11 +13,11 @@ mongoose.connect(process.env.MONGO_URI, { useNewUrlParser: true, useUnifiedTopol
     app.get('/', (req, res) => {
         res.send(`
             <center>
-                <h1>Welcome to the Quiz-Application!</h1>
+                <h1>Welcome to the Fitness_Tracker_Application!</h1>
                 <br>
                 <p>
-                    Get Quiz-Application: 
-                <a href="https://github.com/RonakPatel2468/QUIZ_APPLICATION.git" target="_blank">Repository:QUIZ_APPLICATION </a>
+                    Get FITNESS_TRACKER_APPLICATION: 
+                <a href="https://github.com/RonakPatel2468/FITNESS_TRACKER_APPLICATION.git" target="_blank">Repository:FITNESS_TRACKER_APPLICATION </a>
                 </p>
             </center>
         `);
